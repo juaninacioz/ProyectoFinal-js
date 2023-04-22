@@ -1,0 +1,122 @@
+.titulo-menu {
+  margin-left: 40%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.prod-Cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: auto;
+}
+
+.menu {
+  margin-left: 100px;
+}
+
+.buscador {
+  width: 500px;
+}
+
+.card-prod {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+  width: 300px;
+  height: 500px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 30px;
+}
+
+.img-prod {
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.texto-prod {
+  text-align: center;
+  font-family: "Times New Roman", Times;
+  margin-bottom: 10px;
+}
+
+.card-carrito {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+  width: 150px;
+  text-align: left;
+  font-family: arial;
+  font-size: 10px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.img-carrito {
+  width: 150px;
+  height: auto;
+}
+
+.modal-Container {
+  width: 500px;
+  margin-left: 40%;
+  margin-bottom: 30px;
+  max-height: 80vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modal-Container ::-webkit-scrollbar {
+  display: none;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.modal-titulo {
+  justify-self: start;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.modal-header-button {
+  cursor: pointer;
+  margin: 50px;
+}
+
+.total-content {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.btn {
+  width: auto;
+  height: 50px;
+  border-color: #dee2e6;
+}
+
+.filtro {
+  display: none;
+}
+
+
+.navbar-collapse {
+
+justify-content: space-around;
+}

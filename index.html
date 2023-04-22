@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light m-10 " >
+      <div class="container-fluid " >
+        <a class="navbar-brand" href="#"><img src="./imagenes/boutique-logo-design-vector-sign-260nw-1021217011.webp" alt="logo:Butique"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+             
+          <div class="m-100 buscador" class="container-fluid " >
+            <form class="d-flex" id="Buscador" >
+              <input id="inputBusqueda" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button id="bt" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+          <ul class="navbar-nav">
+          
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categoria
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Lacteos</a></li>
+                <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                <li><a class="dropdown-item" href="#">Quesos</a></li>
+                <li><a class="dropdown-item" href="#">Galletas</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="ml-auto">
+            <a class="nav-link" href="#">
+              <i class="fa fa-shopping-cart" id="verCarrito"><img src="./imagenes/carrito.webp" alt="" width="80"></i>
+            </a>
+            </div>
+
+         
+       
+
+        </div>
+      </div>
+
+      
+    
+    
+       
+
+      
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+    <h1 class="titulo-menu">Todos los productos</h1>
+    <div id="prodCont"  class="prod-Cont"></div>
+     
+    <div id="modalContainer" class="modal-Container"></div>
+  </div>
+
+
+
+
+
+  </main>
+
+  <footer>
+    
+  </footer>
+</body>
+
+</html>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+
+</body>
+
+</html>

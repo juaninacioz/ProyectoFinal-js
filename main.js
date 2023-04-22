@@ -139,7 +139,7 @@ botonBusquedaNombre.addEventListener('click',(e) =>{
 })
 
 
-let carrito = obtenerCarrito();
+let carrito = JSON.parse(localStorage.getItem("carrito"));
 
 mostrarCarrito();
 
@@ -195,7 +195,7 @@ function comprar() {
 
 
 function agregarAlCarrito(prod) {
-  let existe = carrito.some((element) => element.id === prod.id) ; 
+  let existe = carrito.some((element) => element.id === prod.id);
   if (existe === false) {
     prod.cantidad = 1;
     carrito.push(prod);

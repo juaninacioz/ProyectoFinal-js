@@ -17,17 +17,42 @@
   width: 500px;
 }
 
-.card-prod {
-  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
-  width: 300px;
-  height: 500px;
+#card{
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  padding-top: 20px;
   margin: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  padding-bottom: 30px;
+
+
 }
+
+.dropdown-menu {
+
+  background-color: rgba(33,37,41); 
+  border: none;
+ 
+
+}
+
+.dropdown-menu  li a{
+color:White;
+padding: 15px;
+
+
+}
+
+.dropdown-menu  li{
+  border-bottom:1px solid #aaaaaa;
+
+  
+  
+  }
+
+.dropdown-menu  li:last-child{
+  border-bottom:none;
+  
+  
+  }
 
 .img-prod {
   object-fit: contain;
@@ -53,10 +78,7 @@
   padding: 30px;
 }
 
-.img-carrito {
-  width: 150px;
-  height: auto;
-}
+
 
 .modal-Container {
   width: 500px;
@@ -119,4 +141,15 @@
 .navbar-collapse {
 
 justify-content: space-around;
+}
+
+#img-logo{
+  margin:auto;
+  width:150px;
+  margin-left:2rem;
+}
+
+.nav-link{
+  color:white;
+  font-size:1.2rem;
 }
